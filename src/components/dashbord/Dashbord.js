@@ -5,18 +5,15 @@ import SmallCard from "./SmallCard";
 function Dashbord() {
   return (
     <div>
-      <h1 className="ml-8">Dashbord</h1>
-      <div className="flex flex-col ">
-        <div className="flex flex-col justify-center items-center md:flex-row md:gap-10 md:items-center">
-          <SmallCard />
-          <SmallCard />
-          <SmallCard />
-        </div>
-        <div className="flex h-60 w-[92%] md:w-full overflow-auto md:flex-row  md:overflow-visible   md:gap-10 md:items-center md:justify-center">
-          <BigCard />
-          <BigCard />
-          <BigCard />
-        </div>
+      <div className="lg:flex lg:w-[88%] lg:mx-auto gap-14">
+        <SmallCard />
+        <SmallCard />
+        <SmallCard />
+      </div>
+      <div className="md:grid md:grid-cols-2 md:w-[94%] mx-auto lg:grid-cols-3 lg:w-[92%] ">
+        <BigCard />
+        <BigCard />
+        <BigCard />
       </div>
     </div>
   );

@@ -1,15 +1,30 @@
 import React from "react";
-import { IoLogoUsd } from "react-icons/io";
+
 function SmallCard() {
   return (
-    <div className=" flex flex-row px-6 w-5/6 md:w-56 md:flex-col md:justify-around  md:items-center h-24 mt-6 bg-purple-300 justify-between  rounded-sm outline outline-slate-300 shadow-md">
-      <p className=" mb-1 text-slate-500  self-center">Total Revenue</p>
-
-      <div className="flex  items-center gap-1">
-        <div className=" h-[24px] w-[24px] bg-green-100 rounded-full flex justify-center items-center">
-          <IoLogoUsd className="text-green-500 " />
+    <div className="w-[88%] h-32 mt-5 mx-auto  rounded-lg shadow-sm border-2 border-gray-200 pl-5 md:h-44 lg:h-40">
+      <div className="h-full flex flex-col justify-center gap-4 md:gap-8">
+        <p className="text-2xl font-extralight">Total candidates</p>
+        <div className="flex gap-3 text-3xl">
+          <div className="h-10 w-10 rounded-full bg-blue-100 grid place-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+              className="text-[#1887EB] h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
+              ></path>
+            </svg>
+          </div>
+          <h1 className="font-bold">1</h1>
         </div>
-        <p className="font-semibold">1,204</p>
       </div>
     </div>
   );
