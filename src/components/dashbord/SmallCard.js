@@ -2,7 +2,7 @@ import React from "react";
 
 function SmallCard() {
   return (
-    <div className="w-[88%] h-32 mt-5 mx-auto  rounded-lg shadow-sm border-2 border-gray-200 pl-5 md:h-44 lg:h-40">
+    <div className="w-[88%] mt-5 h-32 mx-auto  rounded-lg shadow-sm border-2 border-gray-200 pl-5 md:h-44 lg:h-40">
       <div className="h-full flex flex-col justify-center gap-4 md:gap-8">
         <p className="text-2xl font-extralight">Total candidates</p>
         <div className="flex gap-3 text-3xl">
