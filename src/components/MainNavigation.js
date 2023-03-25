@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 
 function MainNavigation() {
   return (
-    <div>
+    <div className="mx-auto w-screen">
       <Nav />
 
       <Outlet />

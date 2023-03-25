@@ -7,7 +7,7 @@ function Table({ data, headings, child }) {
 
   return (
     <div>
-      <div className="w-screen   mt-5 mb-2 md:overflow-x-scroll   md:w-[88%] md:mx-auto lg:mt-10 h-full  lg:w-[100%] lg:ml-5">
+      <div className="  mt-5 mb-2 md:overflow-x-scroll lg:overflow-x-visible   md:w-[88%] md:mx-auto lg:mt-10 h-full  lg:w-[100%] lg:ml-5">
         <div className=" overflow-x-scroll  md:overflow-x-visible w-screen lg:w-[90%] md:w-[100%]  lg:-mr-2 mx-auto h-full rounded-2xl px-6 md:px-0">
           <table className="border-collapse w-full text-center relative md:w-[86%] md:mx-auto lg:w-[88%]">
             <thead className="bg-gray-100 border-[0.75px] border-zinc-300">
